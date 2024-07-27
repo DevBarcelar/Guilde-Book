@@ -70,3 +70,29 @@ main .books{
     column-gap: 300px;
     max-width: 1200px; 
 }
+
+footer{
+    background-color: #EFE233;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer div{
+    display: flex;
+   justify-content: center;
+   margin-block: 1%;
+   padding-right: 1%;
+}
+footer div img{
+    width: 8%;
+    padding: 1%;
+}
+footer div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+footer p{
+    width: 20%;
+    font-family: cursive;
+}
