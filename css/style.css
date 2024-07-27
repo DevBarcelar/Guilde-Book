@@ -26,23 +26,36 @@ header div h1{
     font-weight: 500;
 }
 header form{
-    display: flex;
-    justify-content: center;
+    position: relative;
+    display: inline-block;
     margin-bottom: 3%;
+    margin-right: 5%;
 }
 header form input{
     border-color: black;
     border-radius: 50px;
-    padding-inline: 17%;
+    padding-inline: 25%;
     padding-block: 4%;
+}
+header form i{
+    position: absolute;
+    left: 8%; 
+    top: 25%;
+    pointer-events: none; 
+    
 }
 header nav{
     display: flex;
     justify-content: center;
 }
+header nav div{
+    padding-inline: 6%;
+}
 header nav a{
-    padding-inline: 15%;
+    padding-inline: 14%;
     margin-bottom: 10%;
+    text-decoration: none;
+    color: #000000;
 }
 main{
 
